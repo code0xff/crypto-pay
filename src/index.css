@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "JetBrains Mono", "Noto Sans KR", ui-monospace, monospace;
+  --font-mono: "JetBrains Mono", "Noto Sans KR", ui-monospace, monospace;
+  --color-paper: #f4f4f5;
+  --color-ink: #18181c;
+  --color-mute: #6b6b73;
+  --color-line: #e4e4e7;
+}
+
+body {
+  background-color: var(--color-paper);
+  background-image:
+    linear-gradient(to right, rgb(0 0 0 / 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(0 0 0 / 0.045) 1px, transparent 1px);
+  background-size: 56px 56px;
+}

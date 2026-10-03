@@ -1,0 +1,209 @@
+[
+  {
+    "id": "bitrefill",
+    "name": "Bitrefill",
+    "summary": "기프트카드와 eSIM, 선불폰 충전을 암호화폐로 살 수 있습니다. 결제는 지원 코인을 지갑에서 보내는 방식입니다.",
+    "category": "기프트카드",
+    "assets": [
+      "BTC",
+      "ETH",
+      "USDT",
+      "USDC",
+      "LTC",
+      "DOGE",
+      "SOL"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Lightning",
+      "Ethereum",
+      "Solana",
+      "Tron",
+      "Polygon"
+    ],
+    "paymentMethods": [
+      "직접 지갑"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://www.bitrefill.com/",
+    "verifiedAt": "2026-10-03"
+  },
+  {
+    "id": "mullvad",
+    "name": "Mullvad VPN",
+    "summary": "계정 번호로 쓰는 VPN입니다. Bitcoin, Bitcoin Cash, Monero, Lightning으로 직접 결제할 수 있습니다.",
+    "category": "VPN",
+    "assets": [
+      "BTC",
+      "BCH",
+      "XMR"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Lightning",
+      "Bitcoin Cash",
+      "Monero"
+    ],
+    "paymentMethods": [
+      "직접 지갑"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://mullvad.net/en/pricing",
+    "verifiedAt": "2026-10-03"
+  },
+  {
+    "id": "travala",
+    "name": "Travala",
+    "summary": "호텔과 항공을 암호화폐로 예약할 수 있습니다. 도움말 기준으로 BTC, ETH, USDT를 포함해 100종이 넘습니다.",
+    "category": "여행",
+    "assets": [
+      "BTC",
+      "ETH",
+      "USDT",
+      "USDC"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Lightning",
+      "Ethereum"
+    ],
+    "paymentMethods": [
+      "자체 결제"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://www.travala.com/payment-options",
+    "verifiedAt": "2026-10-03"
+  },
+  {
+    "id": "newegg",
+    "name": "Newegg",
+    "summary": "PC 부품과 전자기기를 BitPay로 결제할 수 있습니다. 데스크톱 체크아웃에서만 되고, 선물카드·예약·앱 주문은 제외됩니다.",
+    "category": "커머스",
+    "assets": [
+      "BTC",
+      "ETH",
+      "LTC",
+      "DOGE",
+      "USDT",
+      "USDC"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Ethereum",
+      "Litecoin",
+      "Dogecoin"
+    ],
+    "paymentMethods": [
+      "BitPay"
+    ],
+    "regions": [
+      "미국"
+    ],
+    "url": "https://kb.newegg.com/knowledge-base/accepted-payment-methods/",
+    "verifiedAt": "2026-10-03"
+  },
+  {
+    "id": "proton-vpn",
+    "name": "Proton VPN",
+    "summary": "유료 플랜을 Bitcoin으로 결제할 수 있습니다. 무료 계정이 필요하고, Lightning이나 다른 체인은 지원하지 않습니다.",
+    "category": "VPN",
+    "assets": [
+      "BTC"
+    ],
+    "chains": [
+      "Bitcoin"
+    ],
+    "paymentMethods": [
+      "직접 지갑"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://protonvpn.com/support/vpn-bitcoin-payments",
+    "verifiedAt": "2026-10-03"
+  },
+  {
+    "id": "ivpn",
+    "name": "IVPN",
+    "summary": "구독은 Bitcoin과 Monero, 단기 접속(IVPN Light)은 Lightning으로 결제합니다. 노드는 자체 운영입니다.",
+    "category": "VPN",
+    "assets": [
+      "BTC",
+      "XMR"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Lightning",
+      "Monero"
+    ],
+    "paymentMethods": [
+      "BTCPay",
+      "직접 지갑"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://www.ivpn.net/knowledgebase/general/what-payment-methods-do-you-accept/",
+    "verifiedAt": "2026-10-03"
+  },
+  {
+    "id": "namecheap",
+    "name": "Namecheap",
+    "summary": "도메인과 호스팅 잔액을 BitPay 또는 BTCPay로 충전할 수 있습니다. BTCPay는 Bitcoin만 받고, 환불되지 않습니다.",
+    "category": "도메인",
+    "assets": [
+      "BTC",
+      "BCH",
+      "ETH"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Bitcoin Cash",
+      "Ethereum"
+    ],
+    "paymentMethods": [
+      "BitPay",
+      "BTCPay"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://www.namecheap.com/support/knowledgebase/article.aspx/10089/7/how-do-i-add-funds-to-my-namecheap-account-using-bitpay/",
+    "verifiedAt": "2026-10-03"
+  },
+  {
+    "id": "amc",
+    "name": "AMC Theatres",
+    "summary": "미국 앱과 웹사이트에서 티켓, 음식, 음료를 BitPay로 살 수 있습니다. 극장 현장 결제는 해당되지 않습니다.",
+    "category": "엔터테인먼트",
+    "assets": [
+      "BTC",
+      "BCH",
+      "ETH",
+      "DOGE",
+      "LTC",
+      "SHIB"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Bitcoin Cash",
+      "Ethereum",
+      "Dogecoin",
+      "Litecoin"
+    ],
+    "paymentMethods": [
+      "BitPay"
+    ],
+    "regions": [
+      "미국"
+    ],
+    "url": "https://www.amctheatres.com/pay-your-way",
+    "verifiedAt": "2026-10-03"
+  }
+]
