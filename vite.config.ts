@@ -6,6 +6,6 @@ import { defineConfig } from 'vite'
 // Default matches the planned repo name. Override with VITE_BASE
 // (for example VITE_BASE=/ when the site is a user site or custom domain).
 export default defineConfig({
-  base: process.env.VITE_BASE || '/crypto-pay-directory/',
+  base: process.env.VITE_BASE || '/crypto-pay/',
   plugins: [react(), tailwindcss()],
 })

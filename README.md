@@ -13,7 +13,7 @@ npm run dev
 
 ## base 경로
 
-GitHub Pages 프로젝트 사이트는 `https://<user>.github.io/<repo>/`에서 열립니다. `vite.config.ts`의 `base`는 `VITE_BASE`가 있으면 그 값을 쓰고, 없으면 `/crypto-pay-directory/`입니다. 레포 이름이 다르면 배포 시 `VITE_BASE`를 `/레포이름/`으로 맞춥니다. 워크플로는 `VITE_BASE=/${{ github.event.repository.name }}/`로 빌드합니다.
+GitHub Pages 프로젝트 사이트는 `https://<user>.github.io/<repo>/`에서 열립니다. `vite.config.ts`의 `base`는 `VITE_BASE`가 있으면 그 값을 쓰고, 없으면 `/crypto-pay/`입니다. 레포 이름이 다르면 배포 시 `VITE_BASE`를 `/레포이름/`으로 맞춥니다. 워크플로는 `VITE_BASE=/${{ github.event.repository.name }}/`로 빌드합니다.
 
 사용자 사이트(`<user>.github.io`)나 커스텀 도메인은 루트에서 서빙되므로 `VITE_BASE=/`로 빌드합니다.
 
