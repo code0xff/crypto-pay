@@ -954,7 +954,7 @@
       "미국"
     ],
     "url": "https://support.dish.com/billing/ways-to-pay",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-06"
   },
   {
     "id": "att",
@@ -970,7 +970,7 @@
       "미국"
     ],
     "url": "https://www.att.com/support/article/my-account/KM1009340/",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-06"
   },
   {
     "id": "signal",
@@ -986,6 +986,99 @@
       "여러 국가"
     ],
     "url": "https://signal.org/donate/",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "id": "kagi",
+    "name": "Kagi",
+    "summary": "유료 검색 서비스입니다. OpenNode로 Bitcoin이나 Lightning을 보내 선불 크레딧을 충전하고, 그 크레딧으로 플랜을 결제합니다. 이 방식은 자동 갱신 구독을 만들지 않습니다.",
+    "category": "검색",
+    "assets": [
+      "BTC"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Lightning"
+    ],
+    "paymentMethods": [
+      "OpenNode"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://help.kagi.com/kagi/plans/payment-methods.html",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "id": "american-red-cross",
+    "name": "American Red Cross",
+    "summary": "후원 안내 페이지에 BitPay를 통한 암호화폐 기부가 있습니다. 그 페이지는 BTC, BCH, ETH, DOGE와 GUSD, USDC, PAX, BUSD를 적고 있습니다.",
+    "category": "기부",
+    "assets": [
+      "BTC",
+      "BCH",
+      "ETH",
+      "DOGE",
+      "GUSD",
+      "USDC",
+      "PAX",
+      "BUSD"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Bitcoin Cash",
+      "Ethereum",
+      "Dogecoin"
+    ],
+    "paymentMethods": [
+      "BitPay"
+    ],
+    "regions": [
+      "미국"
+    ],
+    "url": "https://www.redcross.org/donations/ways-to-donate/corporate-supporters.html",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "id": "british-red-cross",
+    "name": "British Red Cross",
+    "summary": "The Giving Block으로 70가지가 넘는 암호화폐 기부를 받습니다. 1만 파운드 미만은 웹사이트에서 바로 하고, 그 이상은 이메일로 먼저 문의합니다. 공식 페이지에 코인 이름은 없습니다.",
+    "category": "기부",
+    "assets": [],
+    "chains": [],
+    "paymentMethods": [
+      "The Giving Block"
+    ],
+    "regions": [
+      "영국"
+    ],
+    "url": "https://www.redcross.org.uk/get-involved/donate/donate-in-crypto",
+    "verifiedAt": "2026-10-06"
+  },
+  {
+    "id": "ukrainian-red-cross",
+    "name": "Ukrainian Red Cross",
+    "summary": "우크라이나 적십자사가 공식 페이지에 지갑 주소를 직접 올려 BTC, ETH, USDT, LTC 기부를 받습니다. USDT는 ERC20과 TRC20 주소가 따로 있습니다.",
+    "category": "기부",
+    "assets": [
+      "BTC",
+      "ETH",
+      "USDT",
+      "LTC"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Ethereum",
+      "Tron",
+      "Litecoin"
+    ],
+    "paymentMethods": [
+      "직접 지갑"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://redcross.org.ua/donate/crypto/",
+    "verifiedAt": "2026-10-06"
   }
 ]
