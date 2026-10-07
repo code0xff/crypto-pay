@@ -53,7 +53,7 @@
       "여러 국가"
     ],
     "url": "https://mullvad.net/en/pricing",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-07"
   },
   {
     "id": "travala",
@@ -78,35 +78,44 @@
       "여러 국가"
     ],
     "url": "https://www.travala.com/payment-options",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-07"
   },
   {
     "id": "newegg",
     "name": "Newegg",
-    "summary": "PC 부품과 전자기기를 BitPay로 결제할 수 있습니다. 데스크톱 체크아웃에서만 되고, 선물카드·예약·앱 주문은 제외됩니다.",
+    "summary": "PC 부품과 전자기기를 BitPay로 결제할 수 있습니다. 데스크톱 체크아웃에서만 되고, Newegg 선물카드·마켓플레이스 상품·구독·예약·앱 주문은 제외됩니다. 미국 말고도 한국 등 여러 나라 주문에서 BitPay를 쓸 수 있습니다.",
     "category": "커머스",
     "assets": [
       "BTC",
       "ETH",
       "LTC",
+      "BCH",
+      "WBTC",
       "DOGE",
+      "SHIB",
+      "DAI",
       "USDT",
-      "USDC"
+      "GUSD",
+      "USDC",
+      "BUSD",
+      "PAX"
     ],
     "chains": [
       "Bitcoin",
       "Ethereum",
       "Litecoin",
+      "Bitcoin Cash",
       "Dogecoin"
     ],
     "paymentMethods": [
       "BitPay"
     ],
     "regions": [
-      "미국"
+      "미국",
+      "여러 국가"
     ],
     "url": "https://kb.newegg.com/knowledge-base/accepted-payment-methods/",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-07"
   },
   {
     "id": "proton-vpn",
@@ -1080,5 +1089,54 @@
     ],
     "url": "https://redcross.org.ua/donate/crypto/",
     "verifiedAt": "2026-10-06"
+  },
+  {
+    "id": "save-the-children",
+    "name": "Save the Children",
+    "summary": "미국 Save the Children이 The Giving Block과 Gemini를 통해 암호화폐 기부를 받습니다. 공식 기부 페이지는 BTC, ETH, USDC, SOL, DOGE 등을 고르게 되어 있고, 받은 코인은 바로 달러로 바꿉니다.",
+    "category": "기부",
+    "assets": [
+      "BTC",
+      "ETH",
+      "USDC",
+      "SOL",
+      "DOGE"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Ethereum",
+      "Solana",
+      "Dogecoin"
+    ],
+    "paymentMethods": [
+      "The Giving Block"
+    ],
+    "regions": [
+      "미국"
+    ],
+    "url": "https://www.savethechildren.org/us/ways-to-help/ways-to-give/ways-to-help/cryptocurrency-donation",
+    "verifiedAt": "2026-10-07"
+  },
+  {
+    "id": "unicef-australia",
+    "name": "UNICEF Australia",
+    "summary": "The Giving Block과 Gemini를 통해 50가지가 넘는 암호화폐 기부를 받습니다. 공식 페이지에 이름이 적힌 코인은 BTC와 ETH입니다.",
+    "category": "기부",
+    "assets": [
+      "BTC",
+      "ETH"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Ethereum"
+    ],
+    "paymentMethods": [
+      "The Giving Block"
+    ],
+    "regions": [
+      "호주"
+    ],
+    "url": "https://www.unicef.org.au/support-unicef-australia/donate-cryptocurrencies",
+    "verifiedAt": "2026-10-07"
   }
 ]
