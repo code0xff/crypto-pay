@@ -135,7 +135,7 @@
       "여러 국가"
     ],
     "url": "https://protonvpn.com/support/vpn-bitcoin-payments",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-08"
   },
   {
     "id": "ivpn",
@@ -159,7 +159,7 @@
       "여러 국가"
     ],
     "url": "https://www.ivpn.net/knowledgebase/general/what-payment-methods-do-you-accept/",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-08"
   },
   {
     "id": "namecheap",
@@ -184,7 +184,7 @@
       "여러 국가"
     ],
     "url": "https://www.namecheap.com/support/knowledgebase/article.aspx/10089/7/how-do-i-add-funds-to-my-namecheap-account-using-bitpay/",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-08"
   },
   {
     "id": "amc",
@@ -1138,5 +1138,47 @@
     ],
     "url": "https://www.unicef.org.au/support-unicef-australia/donate-cryptocurrencies",
     "verifiedAt": "2026-10-07"
+  },
+  {
+    "id": "human-rights-foundation",
+    "name": "Human Rights Foundation",
+    "summary": "2014년부터 Bitcoin 기부를 받습니다. 자체 BTCPay Server로 온체인과 Lightning을 받고, PayJoin 기부 창구도 따로 있습니다.",
+    "category": "기부",
+    "assets": [
+      "BTC"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Lightning"
+    ],
+    "paymentMethods": [
+      "BTCPay"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://hrf.org/btc/",
+    "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "opensats",
+    "name": "OpenSats",
+    "summary": "Bitcoin과 오픈소스 개발을 지원하는 미국 비영리단체입니다. BTCPay Server로 온체인과 Lightning 기부를 받고, 기부금은 수수료 없이 전액 지원금으로 갑니다.",
+    "category": "기부",
+    "assets": [
+      "BTC"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Lightning"
+    ],
+    "paymentMethods": [
+      "BTCPay"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://opensats.org/faq",
+    "verifiedAt": "2026-10-08"
   }
 ]
