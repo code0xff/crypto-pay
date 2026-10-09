@@ -237,7 +237,7 @@
       "여러 국가"
     ],
     "url": "https://nordvpn.com/pricing/",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-09"
   },
   {
     "id": "airvpn",
@@ -265,7 +265,7 @@
       "여러 국가"
     ],
     "url": "https://airvpn.org/buy/",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-09"
   },
   {
     "id": "ovpn",
@@ -287,7 +287,7 @@
       "여러 국가"
     ],
     "url": "https://support.ovpn.com/hc/en-us/articles/46236309981843-What-payment-methods-do-you-accept",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-09"
   },
   {
     "id": "surfshark",
@@ -324,7 +324,7 @@
       "여러 국가"
     ],
     "url": "https://surfshark.com/vpn-with-bitcoin",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-09"
   },
   {
     "id": "hide-me",
@@ -355,7 +355,7 @@
       "여러 국가"
     ],
     "url": "https://hide.me/en/help/which-payment-methods-do-you-support/",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-09"
   },
   {
     "id": "windscribe",
@@ -395,7 +395,7 @@
       "여러 국가"
     ],
     "url": "https://windscribe.com/knowledge-base/articles/which-cryptocurrencies-do-you-support",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-09"
   },
   {
     "id": "njalla",
@@ -421,7 +421,7 @@
       "여러 국가"
     ],
     "url": "https://njal.la/faq/",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-09"
   },
   {
     "id": "flokinet",
@@ -1180,5 +1180,135 @@
     ],
     "url": "https://opensats.org/faq",
     "verifiedAt": "2026-10-08"
+  },
+  {
+    "id": "freedom-of-the-press-foundation",
+    "name": "Freedom of the Press Foundation",
+    "summary": "언론 자유를 지키는 미국 비영리단체입니다. Bitcoin, Ethereum, Litecoin, Monero, Stellar, Zcash로 기부를 받습니다.",
+    "category": "기부",
+    "assets": [
+      "BTC",
+      "ETH",
+      "LTC",
+      "XMR",
+      "XLM",
+      "ZEC"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Ethereum",
+      "Litecoin",
+      "Monero",
+      "Stellar",
+      "Zcash"
+    ],
+    "paymentMethods": [
+      "암호화폐 기부"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://freedom.press/donate/",
+    "verifiedAt": "2026-10-09"
+  },
+  {
+    "id": "qubes-os",
+    "name": "Qubes OS",
+    "summary": "보안 중심 운영체제 Qubes OS에 Bitcoin, Ethereum, Monero 주소로 기부합니다. 이더리움 주소는 메인넷만 받으며 ERC-20 토큰(USDT, USDC, DAI 등)도 됩니다. L2와 사이드체인으로 보내면 유실될 수 있습니다.",
+    "category": "기부",
+    "assets": [
+      "BTC",
+      "ETH",
+      "USDT",
+      "USDC",
+      "DAI",
+      "XMR"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Ethereum",
+      "Monero"
+    ],
+    "paymentMethods": [
+      "직접 지갑"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://www.qubes-os.org/donate/",
+    "verifiedAt": "2026-10-09"
+  },
+  {
+    "id": "grapheneos",
+    "name": "GrapheneOS",
+    "summary": "보안 중심 모바일 운영체제 GrapheneOS 재단에 Bitcoin, Monero, Zcash, Ethereum, Cardano, Litecoin으로 기부합니다. 토큰은 받지 않고 각 체인의 기본 코인만 받습니다.",
+    "category": "기부",
+    "assets": [
+      "BTC",
+      "XMR",
+      "ZEC",
+      "ETH",
+      "ADA",
+      "LTC"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Monero",
+      "Zcash",
+      "Ethereum",
+      "Cardano",
+      "Litecoin"
+    ],
+    "paymentMethods": [
+      "직접 지갑"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://grapheneos.org/donate",
+    "verifiedAt": "2026-10-09"
+  },
+  {
+    "id": "whonix",
+    "name": "Whonix",
+    "summary": "Tor 기반 익명 운영체제 Whonix에 Bitcoin, Monero, Ethereum 주소로 기부합니다. 이더리움 주소로 ERC-20 토큰(USDC, USDT, DAI 등)도 보낼 수 있고 Tron은 준비 중입니다.",
+    "category": "기부",
+    "assets": [
+      "BTC",
+      "XMR",
+      "ETH",
+      "USDC",
+      "USDT",
+      "DAI"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Monero",
+      "Ethereum"
+    ],
+    "paymentMethods": [
+      "직접 지갑"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://www.whonix.org/wiki/Donate",
+    "verifiedAt": "2026-10-09"
+  },
+  {
+    "id": "isrg",
+    "name": "Internet Security Research Group (Let's Encrypt)",
+    "summary": "Let's Encrypt를 운영하는 비영리단체입니다. 대부분의 암호화폐 기부를 The Giving Block 페이지로 받는다고 적혀 있고, 코인 목록은 공식 안내에 없습니다.",
+    "category": "기부",
+    "assets": [],
+    "chains": [],
+    "paymentMethods": [
+      "The Giving Block"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://www.abetterinternet.org/donate/",
+    "verifiedAt": "2026-10-09"
   }
 ]
