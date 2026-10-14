@@ -200,7 +200,13 @@
       "ETH",
       "DOGE",
       "LTC",
-      "SHIB"
+      "SHIB",
+      "WBTC",
+      "BUSD",
+      "DAI",
+      "GUSD",
+      "USDC",
+      "USDP"
     ],
     "chains": [
       "Bitcoin",
@@ -216,7 +222,7 @@
       "미국"
     ],
     "url": "https://www.amctheatres.com/pay-your-way",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-14"
   },
   {
     "id": "nordvpn",
@@ -463,7 +469,7 @@
       "여러 국가"
     ],
     "url": "https://billing.flokinet.is/index.php?language=english&rp=%2Fknowledgebase%2F9%2FPayment-methods.html",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-14"
   },
   {
     "id": "1984-hosting",
@@ -538,7 +544,7 @@
       "여러 국가"
     ],
     "url": "https://orangewebsite.com/company/bitcoin-crypto-currency",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-14"
   },
   {
     "id": "privex",
@@ -694,7 +700,7 @@
       "여러 국가"
     ],
     "url": "https://support.unstoppabledomains.com/support/solutions/articles/48001181692-how-to-buy-a-domain",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-14"
   },
   {
     "id": "gandi",
@@ -718,7 +724,7 @@
       "여러 국가"
     ],
     "url": "https://docs.gandi.net/en/billing/means_of_payment/bitcoin.html",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-14"
   },
   {
     "id": "coinsbee",
@@ -1315,6 +1321,22 @@
     ],
     "url": "https://www.abetterinternet.org/donate/",
     "verifiedAt": "2026-10-09"
+  },
+  {
+    "id": "givedirectly",
+    "name": "GiveDirectly",
+    "summary": "가난한 가정에 현금을 직접 보내는 단체에 암호화폐로 기부합니다. 기부는 Endaoment를 거치며, 지갑을 연결하거나 Endaoment가 주는 주소로 직접 보냅니다.",
+    "category": "기부",
+    "assets": [],
+    "chains": [],
+    "paymentMethods": [
+      "Endaoment"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://www.givedirectly.org/crypto",
+    "verifiedAt": "2026-10-14"
   },
   {
     "id": "proton-mail",
