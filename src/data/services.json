@@ -729,15 +729,20 @@
   {
     "id": "coinsbee",
     "name": "Coinsbee",
-    "summary": "기프트카드와 선불폰 충전을 Bitcoin, Ethereum, Litecoin을 포함해 200종이 넘는 암호화폐로 삽니다. 상점이 코인을 직접 받는 것이 아니라 상품권으로 바꿉니다.",
+    "summary": "기프트카드와 선불폰 충전을 Bitcoin, Ethereum, Litecoin을 포함해 200종이 넘는 암호화폐로 삽니다. Bitcoin과 Litecoin은 Lightning으로도 낼 수 있고, 상점이 코인을 직접 받는 것이 아니라 상품권으로 바꿉니다.",
     "category": "기프트카드",
     "assets": [
       "BTC",
       "ETH",
-      "LTC"
+      "LTC",
+      "USDT",
+      "BCH",
+      "XRP",
+      "NANO"
     ],
     "chains": [
       "Bitcoin",
+      "Lightning",
       "Ethereum",
       "Litecoin"
     ],
@@ -749,8 +754,8 @@
     "regions": [
       "여러 국가"
     ],
-    "url": "https://www.coinsbee.com/en/",
-    "verifiedAt": "2026-10-03"
+    "url": "https://www.coinsbee.com/en/cryptocurrencies/",
+    "verifiedAt": "2026-10-15"
   },
   {
     "id": "cryptorefills",
@@ -773,7 +778,12 @@
       "Tron",
       "Polygon",
       "Base",
-      "Solana"
+      "Avalanche",
+      "Arbitrum",
+      "Optimism",
+      "Solana",
+      "Sui",
+      "TON"
     ],
     "paymentMethods": [
       "직접 지갑"
@@ -782,7 +792,7 @@
       "여러 국가"
     ],
     "url": "https://www.cryptorefills.com/en/help/payments/coins-and-networks",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-15"
   },
   {
     "id": "alternative-airlines",
@@ -809,7 +819,7 @@
       "여러 국가"
     ],
     "url": "https://www.alternativeairlines.com/cryptocurrencies",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-15"
   },
   {
     "id": "airbaltic",
@@ -829,7 +839,7 @@
       "여러 국가"
     ],
     "url": "https://book.airbaltic.com/text?id=basket_new-link_payment_options",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-15"
   },
   {
     "id": "internet-archive",
@@ -857,7 +867,7 @@
       "여러 국가"
     ],
     "url": "https://archive.org/donate/cryptocurrency/",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-15"
   },
   {
     "id": "tor-project",
@@ -890,7 +900,7 @@
       "여러 국가"
     ],
     "url": "https://donate.torproject.org/cryptocurrency/",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-15"
   },
   {
     "id": "eff",
@@ -930,7 +940,7 @@
       "여러 국가"
     ],
     "url": "https://www.eff.org/pages/other-ways-give-and-donor-support",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-15"
   },
   {
     "id": "fsf",
@@ -954,7 +964,7 @@
       "여러 국가"
     ],
     "url": "https://www.fsf.org/about/ways-to-donate",
-    "verifiedAt": "2026-10-03"
+    "verifiedAt": "2026-10-15"
   },
   {
     "id": "dish",
@@ -1428,5 +1438,51 @@
     ],
     "url": "https://cloudzy.com/kb/cloudzy-crypto-payment-confirmations/",
     "verifiedAt": "2026-10-13"
+  },
+  {
+    "id": "riseup",
+    "name": "Riseup",
+    "summary": "활동가를 위한 이메일과 VPN을 운영하는 기술 협동체입니다. 기부 페이지에 Bitcoin, Zcash, Monero, Ethereum, Bitcoin Cash 주소가 있고, Zcash는 공개 t-주소로 받습니다.",
+    "category": "기부",
+    "assets": [
+      "BTC",
+      "ZEC",
+      "XMR",
+      "ETH",
+      "BCH"
+    ],
+    "chains": [
+      "Bitcoin",
+      "Zcash",
+      "Monero",
+      "Ethereum",
+      "Bitcoin Cash"
+    ],
+    "paymentMethods": [
+      "직접 지갑"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://riseup.net/en/donate",
+    "verifiedAt": "2026-10-15"
+  },
+  {
+    "id": "creative-commons",
+    "name": "Creative Commons",
+    "summary": "CC 라이선스를 만드는 미국 비영리단체입니다. 기부자 FAQ에 GoFundMe Pro(Coinbase), Every, Endaoment로 암호화폐 기부를 받는다고 적혀 있고, 코인 이름은 없습니다.",
+    "category": "기부",
+    "assets": [],
+    "chains": [],
+    "paymentMethods": [
+      "Coinbase",
+      "Every",
+      "Endaoment"
+    ],
+    "regions": [
+      "여러 국가"
+    ],
+    "url": "https://creativecommons.org/support/donor-faq/",
+    "verifiedAt": "2026-10-15"
   }
 ]
